@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: rgb(83, 55, 55);
+   
+
+}
+.carrusel {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(109, 109, 109);
+ 
+
+}
+
+
+
+.carrusel1 {
+    width: 500px;
+    margin: 150px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #616060fd;
+    height: 30%;
+    color: #06b623;
+}
+
+.footer i {
+    font-size: 52px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    animation: girando 2.6s infinite;
+}
+
+.footer i:hover {
+    color: #f4ebd1;
+}
+
+@keyframes girando {
+    0% {
+        transform: rotate(0deg);
+        transition: .5s;
+    }
+
+    25% {
+        transform: rotate(90deg);
+        transition: .5s;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        transition: .5s;
+    }
+
+    75% {
+        transform: rotate(270deg);
+        transition: .5s;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        transition: .5s;
+    }
+}
