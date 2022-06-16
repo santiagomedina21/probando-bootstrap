@@ -2,11 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.header {
-    background-color: rgb(83, 55, 55);
-   
 
-}
 .carrusel {
   display: flex;
   justify-content: center;
@@ -41,6 +37,23 @@
 .footer i:hover {
     color: #f4ebd1;
 }
+/* contacto */
+main {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(94, 92, 92);
+}
+.formu {
+    border-radius: 10px;
+    background-color: darkslategray;
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    padding: 50px;
+    color: aliceblue;
+}
+
+
 
 @keyframes girando {
     0% {
